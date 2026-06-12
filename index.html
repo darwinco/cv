@@ -1,829 +1,953 @@
-<!DOCTYPE html>
-<html lang="es">
-<head>
-  <meta charset="UTF-8" />
-  <title>Darwin Leonardo Cortes Sanchez - IT Support Specialist</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="description" content="Currículum vitae de Darwin Leonardo Cortes Sanchez - Especialista en Soporte TI e Internacional Trade Professional." />
+<html lang="en" data-theme="dark"><head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Darwin Cortes | IT Support Specialist</title>
+  <meta name="description" content="Professional CV website for Darwin Leonardo Cortes Sanchez, IT Support Specialist with experience in technical support, customer service, data analysis, and web operations.">
+  <meta property="og:title" content="Darwin Cortes | IT Support Specialist">
+  <meta property="og:description" content="Professional profile, experience, skills, education, and contact information for Darwin Leonardo Cortes Sanchez.">
+  <meta property="og:type" content="website">
+  <link rel="preconnect" href="https://api.fontshare.com">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+  <link href="https://api.fontshare.com/v2/css?f[]=satoshi@400,500,700,900&amp;f[]=zodiak@400,700&amp;display=swap" rel="stylesheet">
   <style>
-    :root {
-      --bg: #0f172a;
-      --bg-alt: #020617;
-      --card: #020617;
-      --accent: #22c55e;
-      --accent-soft: rgba(34, 197, 94, 0.12);
-      --text: #e5e7eb;
-      --muted: #9ca3af;
-      --border: #1f2937;
-      --shadow: 0 18px 45px rgba(15, 23, 42, 0.8);
-      --radius-lg: 18px;
-      --radius-xl: 26px;
+    :root, [data-theme="light"] {
+      --text-xs: clamp(0.75rem, 0.7rem + 0.25vw, 0.875rem);
+      --text-sm: clamp(0.875rem, 0.8rem + 0.35vw, 1rem);
+      --text-base: clamp(1rem, 0.95rem + 0.25vw, 1.125rem);
+      --text-lg: clamp(1.125rem, 1rem + 0.75vw, 1.5rem);
+      --text-xl: clamp(1.5rem, 1.2rem + 1.25vw, 2.25rem);
+      --text-2xl: clamp(2rem, 1.2rem + 2.5vw, 3.5rem);
+      --text-3xl: clamp(2.5rem, 1rem + 4vw, 5rem);
+
+      --space-1: 0.25rem;
+      --space-2: 0.5rem;
+      --space-3: 0.75rem;
+      --space-4: 1rem;
+      --space-5: 1.25rem;
+      --space-6: 1.5rem;
+      --space-8: 2rem;
+      --space-10: 2.5rem;
+      --space-12: 3rem;
+      --space-16: 4rem;
+      --space-20: 5rem;
+      --space-24: 6rem;
+
+      --color-bg: #f7f6f2;
+      --color-surface: #f9f8f5;
+      --color-surface-2: #fbfbf9;
+      --color-surface-offset: #efece6;
+      --color-border: #d4d1ca;
+      --color-divider: #dcd9d5;
+      --color-text: #28251d;
+      --color-text-muted: #696861;
+      --color-text-faint: #9d9a93;
+      --color-text-inverse: #f9f8f4;
+      --color-primary: #01696f;
+      --color-primary-hover: #0c4e54;
+      --color-primary-highlight: #cedcd8;
+      --color-success: #437a22;
+      --color-blue: #006494;
+      --shadow-sm: 0 1px 2px rgba(30, 27, 22, 0.06);
+      --shadow-md: 0 10px 30px rgba(30, 27, 22, 0.08);
+      --shadow-lg: 0 24px 70px rgba(30, 27, 22, 0.14);
+      --radius-sm: 0.375rem;
+      --radius-md: 0.75rem;
+      --radius-lg: 1rem;
+      --radius-xl: 1.5rem;
+      --radius-full: 9999px;
+      --transition: 180ms cubic-bezier(0.16, 1, 0.3, 1);
+      --content-wide: 1180px;
+      --font-display: 'Zodiak', Georgia, serif;
+      --font-body: 'Satoshi', Inter, sans-serif;
     }
 
-    * {
-      box-sizing: border-box;
-      margin: 0;
-      padding: 0;
+    [data-theme="dark"] {
+      --color-bg: #171614;
+      --color-surface: #1c1b19;
+      --color-surface-2: #201f1d;
+      --color-surface-offset: #252320;
+      --color-border: #393836;
+      --color-divider: #262523;
+      --color-text: #e4e1db;
+      --color-text-muted: #b1aca4;
+      --color-text-faint: #7c7771;
+      --color-text-inverse: #161514;
+      --color-primary: #4f98a3;
+      --color-primary-hover: #73acb4;
+      --color-primary-highlight: rgba(79, 152, 163, 0.18);
+      --color-success: #7db05c;
+      --color-blue: #71afd8;
+      --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.22);
+      --shadow-md: 0 12px 32px rgba(0, 0, 0, 0.28);
+      --shadow-lg: 0 30px 80px rgba(0, 0, 0, 0.4);
     }
 
+    @media (prefers-color-scheme: dark) {
+      :root:not([data-theme]) {
+        --color-bg: #171614;
+        --color-surface: #1c1b19;
+        --color-surface-2: #201f1d;
+        --color-surface-offset: #252320;
+        --color-border: #393836;
+        --color-divider: #262523;
+        --color-text: #e4e1db;
+        --color-text-muted: #b1aca4;
+        --color-text-faint: #7c7771;
+        --color-text-inverse: #161514;
+        --color-primary: #4f98a3;
+        --color-primary-hover: #73acb4;
+        --color-primary-highlight: rgba(79, 152, 163, 0.18);
+      }
+    }
+
+    *, *::before, *::after { box-sizing: border-box; }
+    html {
+      scroll-behavior: smooth;
+      -webkit-text-size-adjust: none;
+      text-size-adjust: none;
+    }
     body {
-      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-      background: radial-gradient(circle at top, #1f2937 0, #020617 46%, #000 100%);
-      color: var(--text);
+      margin: 0;
+      min-height: 100vh;
+      font-family: var(--font-body);
+      font-size: var(--text-base);
       line-height: 1.6;
-      padding: 32px 16px 64px;
-    }
-
-    .page {
-      max-width: 1040px;
-      margin: 0 auto;
-      background: linear-gradient(135deg, rgba(15, 23, 42, 0.96), rgba(15, 23, 42, 0.98));
-      border-radius: var(--radius-xl);
-      border: 1px solid rgba(148, 163, 184, 0.24);
-      box-shadow: var(--shadow);
-      padding: 28px 26px 32px;
-      position: relative;
-      overflow: hidden;
-    }
-
-    .page::before {
-      content: "";
-      position: absolute;
-      inset: -40%;
+      color: var(--color-text);
       background:
-        radial-gradient(circle at 0% 0%, rgba(34, 197, 94, 0.14), transparent 55%),
-        radial-gradient(circle at 100% 0%, rgba(56, 189, 248, 0.16), transparent 55%),
-        radial-gradient(circle at 0% 100%, rgba(168, 85, 247, 0.12), transparent 55%);
-      opacity: 0.75;
-      pointer-events: none;
+        radial-gradient(circle at top right, color-mix(in srgb, var(--color-primary) 9%, transparent) 0, transparent 28%),
+        linear-gradient(180deg, color-mix(in srgb, var(--color-surface-2) 55%, var(--color-bg)) 0%, var(--color-bg) 48%, var(--color-surface) 100%);
     }
-
-    .page-inner {
-      position: relative;
-      z-index: 1;
+    img, svg { display: block; max-width: 100%; }
+    a {
+      color: inherit;
+      text-decoration: none;
+      transition: color var(--transition), background var(--transition), border-color var(--transition), transform var(--transition);
     }
+    button {
+      font: inherit;
+      color: inherit;
+      cursor: pointer;
+      border: none;
+      background: none;
+      transition: background var(--transition), color var(--transition), transform var(--transition), border-color var(--transition);
+    }
+    :focus-visible {
+      outline: 2px solid var(--color-primary);
+      outline-offset: 3px;
+      border-radius: var(--radius-sm);
+    }
+    .sr-only {
+      position: absolute;
+      width: 1px;
+      height: 1px;
+      padding: 0;
+      margin: -1px;
+      overflow: hidden;
+      clip: rect(0, 0, 0, 0);
+      white-space: nowrap;
+      border: 0;
+    }
+    .skip-link {
+      position: absolute;
+      left: var(--space-4);
+      top: -3rem;
+      background: var(--color-primary);
+      color: var(--color-text-inverse);
+      padding: var(--space-2) var(--space-4);
+      border-radius: var(--radius-full);
+      z-index: 100;
+    }
+    .skip-link:focus { top: var(--space-4); }
+    .container {
+      width: min(calc(100% - 2rem), var(--content-wide));
+      margin: 0 auto;
+    }
+    .site-header {
+      position: sticky;
+      top: 0;
+      z-index: 50;
+      backdrop-filter: blur(18px);
+      background: color-mix(in srgb, var(--color-bg) 82%, transparent);
+      border-bottom: 1px solid color-mix(in srgb, var(--color-text) 10%, transparent);
+    }
+    .header-inner {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: var(--space-4);
+      padding: var(--space-3) 0;
+    }
+    .brand {
+      display: inline-flex;
+      align-items: center;
+      gap: var(--space-3);
+      font-weight: 700;
+      letter-spacing: 0.01em;
+    }
+    .brand-mark {
+      width: 2.5rem;
+      height: 2.5rem;
+      border-radius: 0.9rem;
+      background: linear-gradient(135deg, var(--color-primary) 0%, color-mix(in srgb, var(--color-primary) 55%, var(--color-bg)) 100%);
+      color: var(--color-text-inverse);
+      display: grid;
+      place-items: center;
+      box-shadow: var(--shadow-sm);
+      flex-shrink: 0;
+    }
+    .brand-mark svg { width: 1.4rem; height: 1.4rem; }
+    .nav {
+      display: none;
+      align-items: center;
+      gap: var(--space-4);
+    }
+    .nav a {
+      font-size: var(--text-sm);
+      color: var(--color-text-muted);
+    }
+    .nav a:hover, .nav a:focus-visible { color: var(--color-text); }
+    .header-actions {
+      display: flex;
+      align-items: center;
+      gap: var(--space-2);
+    }
+    .theme-toggle, .resume-link {
+      min-height: 44px;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: var(--radius-full);
+    }
+    .theme-toggle {
+      width: 44px;
+      border: 1px solid color-mix(in srgb, var(--color-text) 12%, transparent);
+      background: var(--color-surface-2);
+    }
+    .theme-toggle:hover { background: var(--color-surface-offset); }
+    .resume-link {
+      padding: 0 var(--space-4);
+      background: var(--color-primary);
+      color: var(--color-text-inverse);
+      font-size: var(--text-sm);
+      font-weight: 700;
+    }
+    .resume-link:hover { background: var(--color-primary-hover); }
 
-    header {
+    main { display: block; }
+    section { padding: clamp(var(--space-12), 10vw, var(--space-24)) 0; }
+
+    .hero {
+      padding-top: clamp(var(--space-12), 11vw, 8rem);
+      min-height: calc(100vh - 72px);
+      display: grid;
+      align-items: center;
+    }
+    .hero-grid {
+      display: grid;
+      gap: var(--space-8);
+    }
+    .eyebrow {
+      display: inline-flex;
+      align-items: center;
+      gap: var(--space-2);
+      width: fit-content;
+      padding: 0.4rem 0.85rem;
+      border-radius: var(--radius-full);
+      background: var(--color-primary-highlight);
+      color: var(--color-primary);
+      font-size: var(--text-xs);
+      font-weight: 700;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+    }
+    .hero h1 {
+      margin: var(--space-4) 0 var(--space-5);
+      font-family: var(--font-display);
+      font-size: clamp(2.7rem, 7vw, 5.8rem);
+      line-height: 0.98;
+      letter-spacing: -0.04em;
+      max-width: 10ch;
+    }
+    .hero p {
+      margin: 0;
+      max-width: 62ch;
+      color: var(--color-text-muted);
+    }
+    .hero-actions {
       display: flex;
       flex-wrap: wrap;
-      gap: 18px;
-      justify-content: space-between;
-      align-items: flex-start;
-      border-bottom: 1px solid rgba(148, 163, 184, 0.35);
-      padding-bottom: 18px;
-      margin-bottom: 22px;
+      gap: var(--space-3);
+      margin-top: var(--space-6);
     }
-
-    .name-block {
-      max-width: 60%;
-    }
-
-    h1 {
-      font-size: clamp(1.7rem, 3vw, 2.15rem);
-      letter-spacing: 0.04em;
-      text-transform: uppercase;
-      margin-bottom: 4px;
-    }
-
-    .title-pill {
+    .button {
+      min-height: 48px;
+      padding: 0 var(--space-5);
+      border-radius: var(--radius-full);
+      font-size: var(--text-sm);
+      font-weight: 700;
       display: inline-flex;
       align-items: center;
-      gap: 8px;
-      padding: 4px 10px;
-      border-radius: 999px;
-      background: radial-gradient(circle at 10% 10%, rgba(34, 197, 94, 0.32), rgba(15, 23, 42, 0.98));
-      border: 1px solid rgba(34, 197, 94, 0.6);
-      font-size: 0.82rem;
-      color: #bbf7d0;
+      justify-content: center;
+      border: 1px solid transparent;
+    }
+    .button-primary {
+      background: var(--color-primary);
+      color: var(--color-text-inverse);
+      box-shadow: var(--shadow-md);
+    }
+    .button-primary:hover { background: var(--color-primary-hover); transform: translateY(-1px); }
+    .button-secondary {
+      background: transparent;
+      border-color: color-mix(in srgb, var(--color-text) 14%, transparent);
+      color: var(--color-text);
+    }
+    .button-secondary:hover { background: var(--color-surface-2); }
+
+    .hero-card {
+      position: relative;
+      overflow: hidden;
+      background: linear-gradient(180deg, color-mix(in srgb, var(--color-surface) 72%, transparent), var(--color-surface-2));
+      border: 1px solid color-mix(in srgb, var(--color-text) 10%, transparent);
+      border-radius: 1.75rem;
+      padding: clamp(var(--space-6), 5vw, var(--space-10));
+      box-shadow: var(--shadow-lg);
+    }
+    .hero-card::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background: radial-gradient(circle at top right, color-mix(in srgb, var(--color-primary) 18%, transparent), transparent 45%);
+      pointer-events: none;
+    }
+    .stat-row {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: var(--space-4);
+      margin-top: var(--space-8);
+      padding-top: var(--space-6);
+      border-top: 1px solid var(--color-divider);
+    }
+    .stat strong {
+      display: block;
+      font-size: var(--text-xl);
+      font-family: var(--font-display);
+      line-height: 1;
+      margin-bottom: var(--space-2);
+    }
+    .stat span {
+      font-size: var(--text-xs);
+      color: var(--color-text-muted);
       text-transform: uppercase;
-      letter-spacing: 0.12em;
-      margin-top: 4px;
+      letter-spacing: 0.08em;
+    }
+    .meta-list {
+      display: grid;
+      gap: var(--space-3);
+      margin-top: var(--space-6);
+    }
+    .meta-item {
+      display: flex;
+      align-items: flex-start;
+      gap: var(--space-3);
+      color: var(--color-text-muted);
+      font-size: var(--text-sm);
+    }
+    .meta-dot {
+      width: 0.65rem;
+      height: 0.65rem;
+      margin-top: 0.45rem;
+      border-radius: 50%;
+      background: var(--color-primary);
+      flex-shrink: 0;
     }
 
-    .title-dot {
-      width: 8px;
-      height: 8px;
-      border-radius: 999px;
-      background: #22c55e;
-      box-shadow: 0 0 12px rgba(34, 197, 94, 0.9);
+    .section-heading {
+      display: grid;
+      gap: var(--space-3);
+      margin-bottom: var(--space-8);
+      max-width: 60ch;
+    }
+    .section-heading h2 {
+      font-family: var(--font-display);
+      font-size: var(--text-2xl);
+      line-height: 1.02;
+      letter-spacing: -0.03em;
+      margin: 0;
+    }
+    .section-heading p {
+      margin: 0;
+      color: var(--color-text-muted);
     }
 
-    .contact {
-      text-align: right;
-      font-size: 0.9rem;
-      color: var(--muted);
+    .overview-grid,
+    .highlights-grid,
+    .skills-grid,
+    .education-grid,
+    .contact-grid {
+      display: grid;
+      gap: var(--space-4);
+    }
+    .panel {
+      background: color-mix(in srgb, var(--color-surface) 88%, transparent);
+      border: 1px solid color-mix(in srgb, var(--color-text) 10%, transparent);
+      border-radius: var(--radius-xl);
+      padding: clamp(var(--space-5), 3vw, var(--space-8));
+      box-shadow: var(--shadow-sm);
+    }
+    .panel h3 {
+      margin: 0 0 var(--space-3);
+      font-size: var(--text-lg);
+      line-height: 1.2;
+    }
+    .panel p { margin: 0; color: var(--color-text-muted); }
+
+    .timeline {
+      display: grid;
+      gap: var(--space-5);
+    }
+    .timeline-item {
+      position: relative;
+      background: color-mix(in srgb, var(--color-surface) 92%, transparent);
+      border: 1px solid color-mix(in srgb, var(--color-text) 10%, transparent);
+      border-radius: var(--radius-xl);
+      padding: clamp(var(--space-5), 3vw, var(--space-8));
+      box-shadow: var(--shadow-sm);
+    }
+    .timeline-item::before {
+      content: "";
+      position: absolute;
+      left: 1.35rem;
+      top: 1.5rem;
+      bottom: 1.5rem;
+      width: 2px;
+      background: linear-gradient(180deg, var(--color-primary), color-mix(in srgb, var(--color-primary) 8%, transparent));
+      opacity: 0.24;
+    }
+    .timeline-inner {
+      padding-left: var(--space-8);
+    }
+    .timeline-top {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      gap: var(--space-3);
+      margin-bottom: var(--space-4);
+    }
+    .timeline-top h3 {
+      margin: 0;
+      font-size: var(--text-lg);
+      line-height: 1.2;
+    }
+    .timeline-top .role {
+      color: var(--color-text-muted);
+      font-weight: 500;
+    }
+    .timeline-top .date {
+      color: var(--color-primary);
+      font-size: var(--text-sm);
+      font-weight: 700;
+    }
+    .timeline-item ul {
+      margin: 0;
+      padding-left: 1.1rem;
+      color: var(--color-text-muted);
+      display: grid;
+      gap: var(--space-2);
     }
 
-    .contact a {
-      color: var(--text);
-      text-decoration: none;
+    .skill-group h3,
+    .education-item h3,
+    .contact-card h3 { margin: 0 0 var(--space-3); }
+    .chips {
+      display: flex;
+      flex-wrap: wrap;
+      gap: var(--space-2);
+    }
+    .chip {
+      display: inline-flex;
+      align-items: center;
+      min-height: 36px;
+      padding: 0 0.85rem;
+      border-radius: var(--radius-full);
+      background: color-mix(in srgb, var(--color-primary) 10%, var(--color-surface));
+      color: var(--color-text);
+      border: 1px solid color-mix(in srgb, var(--color-primary) 18%, transparent);
+      font-size: var(--text-sm);
+      font-weight: 500;
     }
 
-    .contact a:hover {
-      color: var(--accent);
+    .highlight-list {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      display: grid;
+      gap: var(--space-3);
+    }
+    .highlight-list li {
+      display: flex;
+      gap: var(--space-3);
+      color: var(--color-text-muted);
+    }
+    .highlight-list li::before {
+      content: "";
+      width: 0.7rem;
+      height: 0.7rem;
+      margin-top: 0.45rem;
+      border-radius: 50%;
+      background: var(--color-success);
+      flex-shrink: 0;
     }
 
-    .contact-line {
+    .contact-card p, .education-item p { margin: 0; color: var(--color-text-muted); }
+    .contact-links {
+      display: grid;
+      gap: var(--space-3);
+      margin-top: var(--space-4);
+    }
+    .contact-links a {
+      display: inline-flex;
+      align-items: center;
+      gap: var(--space-3);
+      width: fit-content;
+      min-height: 44px;
+      padding: 0.1rem 0;
+      color: var(--color-text);
+    }
+    .contact-links a:hover { color: var(--color-primary); }
+
+    .footer {
+      padding: var(--space-10) 0 var(--space-16);
+      border-top: 1px solid color-mix(in srgb, var(--color-text) 10%, transparent);
+      color: var(--color-text-muted);
+    }
+    .footer-inner {
       display: flex;
       flex-direction: column;
-      gap: 2px;
-      align-items: flex-end;
+      gap: var(--space-3);
     }
 
-    .contact-line span {
-      display: block;
+    [data-reveal] {
+      opacity: 0;
+      transform: translateY(18px);
+      transition: opacity 700ms cubic-bezier(0.16, 1, 0.3, 1), transform 700ms cubic-bezier(0.16, 1, 0.3, 1);
+    }
+    [data-reveal].is-visible {
+      opacity: 1;
+      transform: translateY(0);
     }
 
-    .location {
-      margin-top: 6px;
-      font-size: 0.86rem;
-      color: #cbd5f5;
-    }
-
-    .lang-toggle {
-      display: inline-flex;
-      align-items: center;
-      padding: 3px;
-      border-radius: 999px;
-      border: 1px solid rgba(148, 163, 184, 0.4);
-      background: rgba(15, 23, 42, 0.8);
-      box-shadow: 0 8px 20px rgba(15, 23, 42, 0.7);
-      font-size: 0.78rem;
-      margin-top: 10px;
-    }
-
-    .lang-toggle button {
-      border: none;
-      background: transparent;
-      color: var(--muted);
-      padding: 6px 12px;
-      border-radius: 999px;
-      cursor: pointer;
-      transition: all 0.18s ease;
-      display: inline-flex;
-      align-items: center;
-      gap: 6px;
-    }
-
-    .lang-toggle button.active {
-      background: linear-gradient(135deg, #22c55e, #22c55e);
-      color: #022c22;
-      font-weight: 600;
-    }
-
-    .lang-toggle button span.flag {
-      font-size: 0.9rem;
-    }
-
-    main {
-      display: grid;
-      grid-template-columns: minmax(0, 2fr) minmax(0, 1.15fr);
-      gap: 20px;
-    }
-
-    section {
-      margin-bottom: 18px;
-      background: radial-gradient(circle at 0 0, rgba(148, 163, 184, 0.16), transparent 55%),
-                  radial-gradient(circle at 100% 100%, rgba(37, 99, 235, 0.12), transparent 55%),
-                  rgba(15, 23, 42, 0.9);
-      padding: 14px 16px 14px;
-      border-radius: var(--radius-lg);
-      border: 1px solid rgba(15, 23, 42, 0.9);
-      box-shadow: 0 12px 26px rgba(15, 23, 42, 0.85);
-    }
-
-    .section-header {
-      display: flex;
-      align-items: baseline;
-      justify-content: space-between;
-      margin-bottom: 8px;
-    }
-
-    .section-title {
-      font-size: 1rem;
-      text-transform: uppercase;
-      letter-spacing: 0.18em;
-      color: var(--muted);
-    }
-
-    .section-badge {
-      font-size: 0.68rem;
-      text-transform: uppercase;
-      letter-spacing: 0.16em;
-      color: rgba(148, 163, 184, 0.9);
-    }
-
-    .accent-bar {
-      width: 32px;
-      height: 2px;
-      background: linear-gradient(to right, #22c55e, transparent);
-      margin-top: 4px;
-    }
-
-    p {
-      font-size: 0.92rem;
-      color: #e5e7eb;
-    }
-
-    .summary {
-      font-size: 0.92rem;
-    }
-
-    .summary span.label {
-      display: inline-block;
-      font-size: 0.75rem;
-      text-transform: uppercase;
-      letter-spacing: 0.18em;
-      color: #a5b4fc;
-      margin-bottom: 4px;
-    }
-
-    .summary p {
-      margin-top: 4px;
-    }
-
-    .edu-item,
-    .exp-item {
-      margin-bottom: 10px;
-    }
-
-    .edu-header,
-    .exp-header {
-      display: flex;
-      justify-content: space-between;
-      align-items: baseline;
-      gap: 10px;
-    }
-
-    .edu-org,
-    .exp-org {
-      font-weight: 600;
-      font-size: 0.9rem;
-      color: #e5e7eb;
-    }
-
-    .edu-dates,
-    .exp-dates {
-      font-size: 0.8rem;
-      color: var(--muted);
-      white-space: nowrap;
-    }
-
-    .edu-title,
-    .exp-role {
-      font-size: 0.9rem;
-      color: #a5b4fc;
-      margin-top: 2px;
-    }
-
-    ul {
-      list-style: disc;
-      padding-left: 18px;
-      margin-top: 4px;
-    }
-
-    li {
-      font-size: 0.9rem;
-      margin-bottom: 2px;
-      color: #e5e7eb;
-    }
-
-    .skills-list,
-    .languages-list {
-      list-style: none;
-      padding-left: 0;
-      margin-top: 6px;
-    }
-
-    .skills-list li,
-    .languages-list li {
-      margin-bottom: 4px;
-      font-size: 0.9rem;
-      display: flex;
-      align-items: flex-start;
-      gap: 6px;
-    }
-
-    .skills-label {
-      font-weight: 600;
-      color: #a5b4fc;
-      min-width: 120px;
-      font-size: 0.86rem;
-    }
-
-    .languages-list li span {
-      font-weight: 500;
-      color: #a5b4fc;
-      margin-right: 4px;
-    }
-
-    .badge-inline {
-      display: inline-flex;
-      align-items: center;
-      gap: 6px;
-      padding: 2px 8px;
-      border-radius: 999px;
-      background: rgba(15, 23, 42, 0.9);
-      border: 1px solid rgba(148, 163, 184, 0.55);
-      font-size: 0.75rem;
-      color: #c7d2fe;
-      margin-left: 4px;
-    }
-
-    .note {
-      font-size: 0.75rem;
-      color: var(--muted);
-      margin-top: 8px;
-    }
-
-    .cv-block {
-      display: none;
-    }
-
-    .cv-block.active {
-      display: block;
-    }
-
-    @media (max-width: 800px) {
-      body {
-        padding: 18px 10px 32px;
+    @media (min-width: 760px) {
+      .nav { display: flex; }
+      .hero-grid {
+        grid-template-columns: minmax(0, 1.25fr) minmax(320px, 0.9fr);
+        align-items: end;
       }
+      .overview-grid,
+      .skills-grid,
+      .contact-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+      .highlights-grid { grid-template-columns: 1.1fr 0.9fr; }
+      .education-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+    }
 
-      .page {
-        padding: 20px 16px 24px;
-      }
+    @media (min-width: 1024px) {
+      .overview-grid { grid-template-columns: 1.15fr 0.85fr; }
+      .skills-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+      .contact-grid { grid-template-columns: 0.95fr 1.05fr; }
+    }
 
-      header {
-        flex-direction: column;
-        align-items: flex-start;
-        gap: 10px;
-      }
+    @media (max-width: 759px) {
+      .header-inner { align-items: flex-start; }
+      .resume-link { display: none; }
+      .hero { min-height: auto; }
+      .hero h1 { max-width: 12ch; }
+      .stat-row { grid-template-columns: 1fr; }
+      .timeline-inner { padding-left: var(--space-6); }
+      .timeline-item::before { left: 1rem; }
+    }
 
-      .name-block {
-        max-width: 100%;
+    @media (prefers-reduced-motion: reduce) {
+      html { scroll-behavior: auto; }
+      *, *::before, *::after {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
       }
-
-      .contact {
-        text-align: left;
-      }
-
-      .contact-line {
-        align-items: flex-start;
-      }
-
-      .location {
-        margin-top: 4px;
-      }
-
-      .lang-toggle {
-        margin-top: 6px;
-      }
-
-      main {
-        grid-template-columns: 1fr;
-      }
+      [data-reveal] { opacity: 1; transform: none; }
     }
   </style>
 </head>
 <body>
-  <div class="page">
-    <div class="page-inner">
-      <header>
-        <div class="name-block">
-          <h1>Darwin Leonardo Cortes Sanchez</h1>
-          <div class="title-pill">
-            <span class="title-dot"></span>
-            <span>Especialista en Soporte TI · IT Support Specialist</span>
-          </div>
-          <div class="lang-toggle" aria-label="Language switch">
-            <button id="btn-es" class="active" type="button">
-              <span class="flag">🇨🇴</span>
-              <span>ES</span>
-            </button>
-            <button id="btn-en" type="button">
-              <span class="flag">🇺🇸</span>
-              <span>EN</span>
-            </button>
-          </div>
-        </div>
-        <div class="contact">
-          <div class="contact-line">
-            <span>+57 314 402 3172</span>
-            <span>darwinco@gmail.com</span>
-            <span>
-              <a href="https://darwinco.github.io/cv/" target="_blank" rel="noopener">
-                darwinco.github.io/cv
-              </a>
-            </span>
-          </div>
-          <div class="location">Bogotá, Colombia</div>
-        </div>
-      </header>
+  <a class="skip-link" href="#content">Skip to content</a>
 
-      <!-- Spanish version (original text) -->
-      <div id="cv-es" class="cv-block active">
-        <main>
-          <div>
-            <!-- Perfil -->
-            <section>
-              <div class="section-header">
-                <div>
-                  <div class="section-title">Perfil profesional</div>
-                  <div class="accent-bar"></div>
-                </div>
-              </div>
-              <div class="summary">
-                <span class="label">Resumen</span>
-                <p>
-                  Profesional en Comercio Internacional con experiencia en gestión operativa de comercio exterior, mercadeo internacional, servicio al cliente y análisis de datos. Tengo habilidad para desarrollar informes estratégicos y optimizar procesos basados en datos, también para la creación de sitios web y tiendas virtuales, ensamblaje y mantenimiento de computadores de mesa y portátiles, instalación de sistemas operativos, despliegue de software y migraciones. Manejo de Excel, SAS Enterprise Guide y Data&nbsp;Studio para datos, Joomla con Wordpress y Cpanel para webs, proficiencia en herramientas ofimáticas de Microsoft y Google Workspace. Me destaco por mi comunicación efectiva, orientación a resultados, capacidad para trabajar en equipo, atención al detalle y mi compromiso con el aprendizaje continuo en tecnología.
-                </p>
-              </div>
-            </section>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="#top" aria-label="Go to top of Darwin Cortes website">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M11 34V14H24.5C30.8513 14 36 18.9249 36 25C36 31.0751 30.8513 36 24.5 36H18" stroke="currentColor" stroke-width="4.2" stroke-linecap="round" stroke-linejoin="round"></path>
+            <path d="M18 24H31" stroke="currentColor" stroke-width="4.2" stroke-linecap="round"></path>
+          </svg>
+        </span>
+        <span>Darwin Cortes</span>
+      </a>
 
-            <!-- Experiencia -->
-            <section>
-              <div class="section-header">
-                <div>
-                  <div class="section-title">Experiencia laboral</div>
-                  <div class="accent-bar"></div>
-                </div>
-                <div class="section-badge">Trayectoria</div>
-              </div>
+      <nav class="nav" aria-label="Primary navigation">
+        <a href="#profile">Profile</a>
+        <a href="#experience">Experience</a>
+        <a href="#skills">Skills</a>
+        <a href="#education">Education</a>
+        <a href="#contact">Contact</a>
+      </nav>
 
-              <div class="exp-item">
-                <div class="exp-header">
-                  <div class="exp-org">Colpensiones - Bogotá, Colombia</div>
-                  <div class="exp-dates">Mayo 2021 - Marzo 2024</div>
-                </div>
-                <div class="exp-role">Analista V</div>
-                <ul>
-                  <li>Lideré y capacité el equipo de depuración de deuda pensional y el equipo de daciones en pago, aportando el conocimiento para la ejecución y el cumplimiento de las actividades institucionales.</li>
-                  <li>Diseñé capturas de información, bases de datos, tablas dinámicas y macros, lo que redujo el error humano y aumentó la productividad de los grupos de trabajo al optimizar y automatizar procesos.</li>
-                  <li>Desarrollé páginas web al interior de la entidad y tableros de control para el proceso de depuración de deuda y daciones en pago logrando suministrar en línea informes de resultados y productividad de los equipos de trabajo.</li>
-                </ul>
-              </div>
-
-              <div class="exp-item">
-                <div class="exp-header">
-                  <div class="exp-org">Colpensiones - Bogotá, Colombia</div>
-                  <div class="exp-dates">Septiembre 2018 - Septiembre 2020</div>
-                </div>
-                <div class="exp-role">Analista II</div>
-                <ul>
-                  <li>Diseñé, desarrollé e implementé el modelo de control de trámites y productividad por funcionario al interior de la Gerencia de Financiamiento e Inversiones para sus áreas Directivas.</li>
-                  <li>Realicé informes de productividad y tableros de control de trámites para las Direcciones bajo la Gerencia de Financiamiento.</li>
-                  <li>Aporté mejoras a los diferentes procesos, contribuyendo a un aumento en la productividad, reducción en tiempos de respuesta por control y en consecuencia reducción de acciones legales en contra de la entidad.</li>
-                </ul>
-              </div>
-
-              <div class="exp-item">
-                <div class="exp-header">
-                  <div class="exp-org">Claro Colombia Comcel S.A.S. - Bogotá, Colombia</div>
-                  <div class="exp-dates">Enero 2016 - Diciembre 2017</div>
-                </div>
-                <div class="exp-role">Consultor de Servicio Personalizado</div>
-                <ul>
-                  <li>Atención al cliente, resolví problemas en el primer contacto, asesoré en tecnología y reduje PQR's.</li>
-                  <li>Ventas, ofrecí y vendí servicios móviles, seguros de asistencia y dispositivos móviles al contado y a crédito.</li>
-                  <li>Gestión y seguimiento, realicé consultas de crédito, audité facturas y apoyé la retención y fidelización de clientes.</li>
-                </ul>
-              </div>
-
-              <div class="exp-item">
-                <div class="exp-header">
-                  <div class="exp-org">Corferias Corporación de Ferias y Exposiciones S.A. - Bogotá, Colombia</div>
-                  <div class="exp-dates">Junio 2009 - Septiembre 2010</div>
-                </div>
-                <div class="exp-role">Agente Internacional</div>
-                <ul>
-                  <li>Realicé gestión bilingüe de comercio internacional, identifiqué oportunidades de negocio y cumplí los protocolos de comunicación profesional en inglés y español.</li>
-                  <li>Conecté proveedores colombianos con importadores extranjeros, apoyando la investigación de mercados y ejecutando actividades específicas de mercadeo internacional.</li>
-                  <li>Lideré y organicé misiones comerciales y bases de datos sectoriales para ferias y ruedas de negocios, como la Feria Internacional del Libro 2009 y 2010 entre otras.</li>
-                </ul>
-              </div>
-
-              <div class="exp-item">
-                <div class="exp-header">
-                  <div class="exp-org">Interlogística S.A. Agencia de Aduanas - Bogotá, Colombia</div>
-                  <div class="exp-dates">Marzo 2007 - Noviembre 2008</div>
-                </div>
-                <div class="exp-role">Asistente Comex II</div>
-                <ul>
-                  <li>Gestioné y liquidé procesos de intermediación aduanera, incluyendo declaraciones de importación, valor y servicios de distribución de mercancías.</li>
-                  <li>Coordiné, realicé seguimiento y despacho de envíos nacionales, controlando inventarios en Excel frente a soportes documentales y físicos.</li>
-                  <li>Actualicé y alimenté sistemas de información logística y de comercio exterior (SIL, Siglo XXI, Webcomex).</li>
-                </ul>
-              </div>
-
-              <div class="exp-item">
-                <div class="exp-header">
-                  <div class="exp-org">Security International Cargo S.A.S - Bogotá, Colombia</div>
-                  <div class="exp-dates">Abril 2006 - Noviembre 2006</div>
-                </div>
-                <div class="exp-role">Auxiliar de Importaciones</div>
-                <ul>
-                  <li>Realicé gestión aduanera integral, reconocimiento de mercancías, clasificación arancelaria y cálculo de prorrateos.</li>
-                  <li>Elaboré declaraciones de importación, exportación y valor en aduana, así como liberación de guías y aforos.</li>
-                  <li>Manejé sistemas informáticos aduaneros (Siglo XXI, SYGA) y controlé de inventarios y retiros de mercancías.</li>
-                </ul>
-              </div>
-            </section>
-          </div>
-
-          <div>
-            <!-- Educación -->
-            <section>
-              <div class="section-header">
-                <div>
-                  <div class="section-title">Educación</div>
-                  <div class="accent-bar"></div>
-                </div>
-              </div>
-
-              <div class="edu-item">
-                <div class="edu-header">
-                  <div class="edu-org">Generation Colombia, Bogotá, Colombia</div>
-                  <div class="edu-dates">Actualmente</div>
-                </div>
-                <div class="edu-title">IT Support Specialist with English</div>
-              </div>
-
-              <div class="edu-item">
-                <div class="edu-header">
-                  <div class="edu-org">Universidad Antonio Nariño, Bogotá, Colombia</div>
-                  <div class="edu-dates">Septiembre 2012</div>
-                </div>
-                <div class="edu-title">Profesional en Comercio Internacional</div>
-              </div>
-            </section>
-
-            <!-- Habilidades -->
-            <section>
-              <div class="section-header">
-                <div>
-                  <div class="section-title">Habilidades</div>
-                  <div class="accent-bar"></div>
-                </div>
-                <div class="section-badge">Tech & soft</div>
-              </div>
-
-              <ul class="skills-list">
-                <li>
-                  <span class="skills-label">Soporte y sistemas:</span>
-                  <span>Windows, Linux Live, CMD, PowerShell, diagnóstico básico de hardware y software.</span>
-                </li>
-                <li>
-                  <span class="skills-label">Productividad y datos:</span>
-                  <span>Excel avanzado, tablas dinámicas, fórmulas, macros, SAS Enterprise Guide, Data Studio.</span>
-                </li>
-                <li>
-                  <span class="skills-label">Plataformas colaborativas:</span>
-                  <span>Microsoft Office, Google Workspace.</span>
-                </li>
-                <li>
-                  <span class="skills-label">Web y administración:</span>
-                  <span>WordPress, Joomla, WooCommerce, cPanel.</span>
-                </li>
-                <li>
-                  <span class="skills-label">Operación y procesos:</span>
-                  <span>Bizagi, documentación, control de indicadores, seguimiento operativo.</span>
-                </li>
-              </ul>
-            </section>
-
-            <!-- Idiomas -->
-            <section>
-              <div class="section-header">
-                <div>
-                  <div class="section-title">Idiomas</div>
-                  <div class="accent-bar"></div>
-                </div>
-              </div>
-              <ul class="languages-list">
-                <li><span>Español:</span> Nativo</li>
-                <li><span>Inglés:</span> B2</li>
-              </ul>
-            </section>
-          </div>
-        </main>
-      </div>
-
-      <!-- English version (bilingual website text) -->
-      <div id="cv-en" class="cv-block">
-        <main>
-          <div>
-            <!-- Profile -->
-            <section>
-              <div class="section-header">
-                <div>
-                  <div class="section-title">Professional profile</div>
-                  <div class="accent-bar"></div>
-                </div>
-              </div>
-              <div class="summary">
-                <span class="label">Overview</span>
-                <!-- Profile kept semantically equivalent; you can adjust wording later if you want -->
-                <p>
-                  International Trade Professional with experience in operational management of foreign trade, international marketing, customer service, and data analysis. Skilled at developing strategic reports and optimizing data‑driven processes, as well as creating websites and online stores, assembling and maintaining desktop and laptop computers, installing operating systems, deploying software, and performing migrations. Experienced with Excel, SAS Enterprise Guide and Data&nbsp;Studio for data work, Joomla and WordPress with cPanel for web management, and office productivity tools in Microsoft and Google Workspace. Recognized for effective communication, results orientation, teamwork, attention to detail, and a strong commitment to continuous learning in technology.
-                </p>
-              </div>
-            </section>
-
-            <!-- Experience -->
-            <section>
-              <div class="section-header">
-                <div>
-                  <div class="section-title">Work experience</div>
-                  <div class="accent-bar"></div>
-                </div>
-                <div class="section-badge">Career</div>
-              </div>
-
-              <div class="exp-item">
-                <div class="exp-header">
-                  <div class="exp-org">Colpensiones - Bogotá, Colombia</div>
-                  <div class="exp-dates">May 2021 - March 2024</div>
-                </div>
-                <div class="exp-role">Analyst V</div>
-                <ul>
-                  <li>Led and trained the pension debt clean‑up team and the payment in kind team, providing expertise to ensure execution and compliance with institutional activities.</li>
-                  <li>Designed data capture forms, databases, pivot tables, and macros, reducing human error and increasing team productivity by optimizing and automating processes.</li>
-                  <li>Developed internal web pages and dashboards for the pension debt and payment in kind process, delivering real‑time reports on team results and productivity.</li>
-                </ul>
-              </div>
-
-              <div class="exp-item">
-                <div class="exp-header">
-                  <div class="exp-org">Colpensiones - Bogotá, Colombia</div>
-                  <div class="exp-dates">September 2018 - September 2020</div>
-                </div>
-                <div class="exp-role">Analyst II</div>
-                <ul>
-                  <li>Designed, developed, and implemented a workflow and productivity control model per employee for the Financing and Investments Management office and its leadership areas.</li>
-                  <li>Produced productivity reports and workflow dashboards for the management units under the Financing Management office.</li>
-                  <li>Proposed process improvements that increased productivity, reduced response times through better control, and helped decrease legal actions against the organization.</li>
-                </ul>
-              </div>
-
-              <div class="exp-item">
-                <div class="exp-header">
-                  <div class="exp-org">Claro Colombia Comcel S.A.S. - Bogotá, Colombia</div>
-                  <div class="exp-dates">January 2016 - December 2017</div>
-                </div>
-                <div class="exp-role">Personalized Service Consultant</div>
-                <ul>
-                  <li>Provided customer service, resolved issues on first contact, offered technology advice, and reduced formal complaints (PQRs).</li>
-                  <li>Drove sales by offering and selling mobile services, assistance insurance, and mobile devices, both cash and financed.</li>
-                  <li>Performed credit checks, audited invoices, and supported customer retention and loyalty initiatives.</li>
-                </ul>
-              </div>
-
-              <div class="exp-item">
-                <div class="exp-header">
-                  <div class="exp-org">Corferias Corporación de Ferias y Exposiciones S.A. - Bogotá, Colombia</div>
-                  <div class="exp-dates">June 2009 - September 2010</div>
-                </div>
-                <div class="exp-role">International Agent</div>
-                <ul>
-                  <li>Managed bilingual international trade operations, identified business opportunities, and followed professional communication protocols in English and Spanish.</li>
-                  <li>Connected Colombian suppliers with foreign importers, supporting market research and executing specific international marketing activities.</li>
-                  <li>Led and organized trade missions and sector databases for fairs and business matchmaking events such as the 2009 and 2010 International Book Fair, among others.</li>
-                </ul>
-              </div>
-
-              <div class="exp-item">
-                <div class="exp-header">
-                  <div class="exp-org">Interlogística S.A. Customs Agency - Bogotá, Colombia</div>
-                  <div class="exp-dates">March 2007 - November 2008</div>
-                </div>
-                <div class="exp-role">Foreign Trade Assistant II</div>
-                <ul>
-                  <li>Managed and settled customs brokerage processes, including import declarations, customs value, and distribution services for goods.</li>
-                  <li>Coordinated, monitored, and dispatched national shipments, controlling inventories in Excel against documentary and physical records.</li>
-                  <li>Updated and maintained logistics and foreign trade information systems (SIL, Siglo XXI, Webcomex).</li>
-                </ul>
-              </div>
-
-              <div class="exp-item">
-                <div class="exp-header">
-                  <div class="exp-org">Security International Cargo S.A.S - Bogotá, Colombia</div>
-                  <div class="exp-dates">April 2006 - November 2006</div>
-                </div>
-                <div class="exp-role">Imports Assistant</div>
-                <ul>
-                  <li>Performed end‑to‑end customs management, including cargo inspection, tariff classification, and cost allocation calculations.</li>
-                  <li>Prepared import, export, and customs value declarations, and handled waybill release and customs inspections.</li>
-                  <li>Used customs IT systems (Siglo XXI, SYGA) and controlled inventories and goods withdrawals.</li>
-                </ul>
-              </div>
-            </section>
-          </div>
-
-          <div>
-            <!-- Education -->
-            <section>
-              <div class="section-header">
-                <div>
-                  <div class="section-title">Education</div>
-                  <div class="accent-bar"></div>
-                </div>
-              </div>
-
-              <div class="edu-item">
-                <div class="edu-header">
-                  <div class="edu-org">Generation Colombia, Bogotá, Colombia</div>
-                  <div class="edu-dates">Currently</div>
-                </div>
-                <div class="edu-title">IT Support Specialist with English</div>
-              </div>
-
-              <div class="edu-item">
-                <div class="edu-header">
-                  <div class="edu-org">Universidad Antonio Nariño, Bogotá, Colombia</div>
-                  <div class="edu-dates">September 2012</div>
-                </div>
-                <div class="edu-title">International Trade Professional</div>
-              </div>
-            </section>
-
-            <!-- Skills -->
-            <section>
-              <div class="section-header">
-                <div>
-                  <div class="section-title">Skills</div>
-                  <div class="accent-bar"></div>
-                </div>
-                <div class="section-badge">Tech & soft</div>
-              </div>
-
-              <ul class="skills-list">
-                <li>
-                  <span class="skills-label">Support & systems:</span>
-                  <span>Windows, Linux Live, CMD, PowerShell, basic hardware and software diagnostics.</span>
-                </li>
-                <li>
-                  <span class="skills-label">Productivity & data:</span>
-                  <span>Advanced Excel, pivot tables, formulas, macros, SAS Enterprise Guide, Data Studio.</span>
-                </li>
-                <li>
-                  <span class="skills-label">Collaboration tools:</span>
-                  <span>Microsoft Office, Google Workspace.</span>
-                </li>
-                <li>
-                  <span class="skills-label">Web & administration:</span>
-                  <span>WordPress, Joomla, WooCommerce, cPanel.</span>
-                </li>
-                <li>
-                  <span class="skills-label">Operations & process:</span>
-                  <span>Bizagi, documentation, KPI control, operational monitoring.</span>
-                </li>
-              </ul>
-            </section>
-
-            <!-- Languages -->
-            <section>
-              <div class="section-header">
-                <div>
-                  <div class="section-title">Languages</div>
-                  <div class="accent-bar"></div>
-                </div>
-              </div>
-              <ul class="languages-list">
-                <li><span>Spanish:</span> Native</li>
-                <li><span>English:</span> B2</li>
-              </ul>
-            </section>
-          </div>
-        </main>
+      <div class="header-actions">
+        <button class="theme-toggle" type="button" data-theme-toggle="" aria-label="Switch to light mode"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="12" cy="12" r="5"></circle><path d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"></path></svg></button>
+        <a class="resume-link" href="#contact">Contact</a>
       </div>
     </div>
-  </div>
+  </header>
+
+  <main id="content">
+    <section class="hero" id="top">
+      <div class="container hero-grid">
+        <div data-reveal="" class="is-visible">
+          <span class="eyebrow">IT Support · Customer Service · Data Operations</span>
+          <h1>Darwin Leonardo Cortes Sanchez</h1>
+          <p>
+            IT Support Specialist with experience across technical support, customer service, data-driven operations, website management, and process improvement. Darwin combines hands-on troubleshooting with strong communication, reporting, and digital platform skills.
+          </p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#contact">Get in touch</a>
+            <a class="button button-secondary" href="#experience">View experience</a>
+          </div>
+        </div>
+
+        <aside class="hero-card is-visible" data-reveal="" aria-label="Professional snapshot">
+          <span class="eyebrow">Professional snapshot</span>
+          <div class="meta-list">
+            <div class="meta-item"><span class="meta-dot"></span><span>Bogotá, Colombia</span></div>
+            <div class="meta-item"><span class="meta-dot"></span><span>English B2 · Spanish Native</span></div>
+            <div class="meta-item"><span class="meta-dot"></span><span>Google Workspace, Excel, WordPress, PowerShell, CMD</span></div>
+            <div class="meta-item"><span class="meta-dot"></span><span>Focused on support, operations, reporting, and digital tools</span></div>
+          </div>
+          <div class="stat-row">
+            <div class="stat">
+              <strong>6+</strong>
+              <span>Roles across operations and service</span>
+            </div>
+            <div class="stat">
+              <strong>2</strong>
+              <span>Languages for professional communication</span>
+            </div>
+            <div class="stat">
+              <strong>10+</strong>
+              <span>Tools and platforms used in daily work</span>
+            </div>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <section id="profile">
+      <div class="container">
+        <div class="section-heading is-visible" data-reveal="">
+          <span class="eyebrow">Profile</span>
+          <h2>A professional background that connects support, systems, and operations.</h2>
+          <p>
+            With a foundation in international trade and years of operational experience, Darwin has built a profile that blends technical support, data organization, customer interaction, and web administration.
+          </p>
+        </div>
+
+        <div class="overview-grid">
+          <article class="panel is-visible" data-reveal="">
+            <h3>Professional summary</h3>
+            <p>
+              Experienced in international trade operations, customer service, and data analysis, with practical ability in desktop and laptop assembly and maintenance, operating system installation, software deployment, migrations, website creation, and online store management. Strong communicator with a results-driven mindset, attention to detail, and ongoing commitment to learning in technology.
+            </p>
+          </article>
+          <article class="panel is-visible" data-reveal="">
+            <h3>Core strengths</h3>
+            <ul class="highlight-list">
+              <li>Technical support foundations across Windows, Linux Live, CMD, PowerShell, and basic hardware/software diagnostics.</li>
+              <li>Advanced productivity workflows using Excel, pivot tables, formulas, macros, SAS Enterprise Guide, and Data Studio.</li>
+              <li>Clear communication and service orientation from high-contact roles in telecom, public service, and bilingual business environments.</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="experience">
+      <div class="container">
+        <div class="section-heading is-visible" data-reveal="">
+          <span class="eyebrow">Experience</span>
+          <h2>Career history focused on productivity, service, and operational control.</h2>
+          <p>
+            Darwin has contributed in public-sector analysis, customer-facing service roles, and international operations, repeatedly supporting teams through reporting, workflow improvement, and reliable execution.
+          </p>
+        </div>
+
+        <div class="timeline">
+          <article class="timeline-item is-visible" data-reveal="">
+            <div class="timeline-inner">
+              <div class="timeline-top">
+                <div>
+                  <h3>Colpensiones — Analista V</h3>
+                  <div class="role">Bogotá, Colombia</div>
+                </div>
+                <div class="date">May 2021 – March 2024</div>
+              </div>
+              <ul>
+                <li>Led and trained teams focused on pension debt cleanup and payment-in-kind processes, helping institutional activities run effectively.</li>
+                <li>Designed information capture systems, databases, pivot tables, and macros that reduced human error and increased team productivity.</li>
+                <li>Built internal web pages and dashboards that delivered online reporting for team results and productivity tracking.</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="timeline-item is-visible" data-reveal="">
+            <div class="timeline-inner">
+              <div class="timeline-top">
+                <div>
+                  <h3>Colpensiones — Analista II</h3>
+                  <div class="role">Bogotá, Colombia</div>
+                </div>
+                <div class="date">September 2018 – September 2020</div>
+              </div>
+              <ul>
+                <li>Designed, developed, and implemented a process and productivity control model for staff inside the Financing and Investments Management division.</li>
+                <li>Produced productivity reports and control dashboards for directive teams and operational areas.</li>
+                <li>Contributed process improvements that helped reduce response times, improve control, and lower legal exposure for the organization.</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="timeline-item is-visible" data-reveal="">
+            <div class="timeline-inner">
+              <div class="timeline-top">
+                <div>
+                  <h3>Claro Colombia Comcel S.A.S. — Consultor de Servicio Personalizado</h3>
+                  <div class="role">Bogotá, Colombia</div>
+                </div>
+                <div class="date">January 2016 – December 2017</div>
+              </div>
+              <ul>
+                <li>Resolved customer issues on first contact, provided technology guidance, and helped reduce complaints and claims.</li>
+                <li>Sold mobile services, assistance insurance, and mobile devices through cash and credit channels.</li>
+                <li>Handled credit checks, invoice audits, and retention support to improve customer continuity.</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="timeline-item is-visible" data-reveal="">
+            <div class="timeline-inner">
+              <div class="timeline-top">
+                <div>
+                  <h3>Corferias — Agente Internacional</h3>
+                  <div class="role">Bogotá, Colombia</div>
+                </div>
+                <div class="date">June 2009 – September 2010</div>
+              </div>
+              <ul>
+                <li>Managed bilingual international trade communication and identified business opportunities in English and Spanish.</li>
+                <li>Connected Colombian suppliers with foreign importers while supporting market research and international marketing activities.</li>
+                <li>Organized trade missions and sector databases for fairs and business matchmaking events.</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="timeline-item is-visible" data-reveal="">
+            <div class="timeline-inner">
+              <div class="timeline-top">
+                <div>
+                  <h3>Interlogística S.A. Agencia de Aduanas — Asistente Comex II</h3>
+                  <div class="role">Bogotá, Colombia</div>
+                </div>
+                <div class="date">March 2007 – November 2008</div>
+              </div>
+              <ul>
+                <li>Managed customs brokerage processes including import declarations, value declarations, and goods distribution services.</li>
+                <li>Coordinated domestic shipments, tracked inventory, and reconciled Excel controls with physical and documentary records.</li>
+                <li>Maintained logistics and foreign trade information systems such as SIL, Siglo XXI, and Webcomex.</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="timeline-item is-visible" data-reveal="">
+            <div class="timeline-inner">
+              <div class="timeline-top">
+                <div>
+                  <h3>Security International Cargo S.A.S — Auxiliar de Importaciones</h3>
+                  <div class="role">Bogotá, Colombia</div>
+                </div>
+                <div class="date">April 2006 – November 2006</div>
+              </div>
+              <ul>
+                <li>Handled customs operations including merchandise inspection, tariff classification, and proportional cost calculations.</li>
+                <li>Prepared import, export, and customs value declarations, plus guide release and inspections.</li>
+                <li>Worked with customs systems including Siglo XXI and SYGA while controlling inventory movements and goods withdrawals.</li>
+              </ul>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills">
+      <div class="container">
+        <div class="section-heading is-visible" data-reveal="">
+          <span class="eyebrow">Skills</span>
+          <h2>Technical and operational capabilities that support modern service teams.</h2>
+          <p>
+            The skill set combines troubleshooting, office productivity, reporting, web administration, and process discipline for environments where clear execution matters.
+          </p>
+        </div>
+
+        <div class="skills-grid">
+          <article class="panel skill-group is-visible" data-reveal="">
+            <h3>Support and systems</h3>
+            <div class="chips">
+              <span class="chip">Windows</span>
+              <span class="chip">Linux</span>
+              <span class="chip">CMD</span>
+              
+              <span class="chip">Hardware diagnosis</span>
+              <span class="chip">Software diagnosis</span>
+            </div>
+          </article>
+
+          <article class="panel skill-group is-visible" data-reveal="">
+            <h3>Productivity and data</h3>
+            <div class="chips">
+              <span class="chip">Advanced Excel</span>
+              <span class="chip">Pivot tables</span>
+              <span class="chip">Formulas</span>
+              <span class="chip">Macros</span>
+              <span class="chip">SAS Enterprise Guide</span>
+              <span class="chip">Data Studio</span>
+            </div>
+          </article>
+
+          <article class="panel skill-group is-visible" data-reveal="">
+            <h3>Platforms and operations</h3>
+            <div class="chips">
+              <span class="chip">Microsoft Office</span>
+              <span class="chip">Google Workspace</span>
+              <span class="chip">WordPress</span>
+              <span class="chip">Joomla</span>
+              <span class="chip">WooCommerce</span>
+              <span class="chip">cPanel</span>
+              <span class="chip">Bizagi</span>
+              <span class="chip">Documentation</span>
+              <span class="chip">KPI tracking</span>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="education">
+      <div class="container">
+        <div class="section-heading is-visible" data-reveal="">
+          <span class="eyebrow">Education</span>
+          <h2>Academic and professional training aligned with business and IT support.</h2>
+          <p>
+            Darwin’s background reflects a strong business foundation complemented by current technical support training in English.
+          </p>
+        </div>
+
+        <div class="education-grid">
+          <article class="panel education-item is-visible" data-reveal="">
+            <h3>Generation Colombia</h3>
+            <p><strong>Program:</strong> IT Support Specialist with English</p>
+            <p><strong>Status:</strong> Current</p>
+            <p><strong>Location:</strong> Bogotá, Colombia</p>
+          </article>
+          <article class="panel education-item is-visible" data-reveal="">
+            <h3>Universidad Antonio Nariño</h3>
+            <p><strong>Degree:</strong> Professional in International Trade</p>
+            <p><strong>Graduation:</strong> September 2012</p>
+            <p><strong>Location:</strong> Bogotá, Colombia</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <div class="container">
+        <div class="section-heading is-visible" data-reveal="">
+          <span class="eyebrow">Contact</span>
+          <h2>Available for IT support, customer service, operations, and digital roles.</h2>
+          <p>
+            This website is designed to present Darwin’s experience in a clean, professional format suitable for recruiters, hiring managers, and collaborators.
+          </p>
+        </div>
+
+        <div class="contact-grid">
+          <article class="panel contact-card is-visible" data-reveal="">
+            <h3>Direct details</h3>
+            <p>Professional communication in Spanish and English, based in Bogotá, Colombia.</p>
+            <div class="contact-links">
+              <a href="mailto:darwinco@gmail.com">darwinco@gmail.com</a>
+              <a href="tel:+573144023172">+57 314 402 3172</a>
+              <span>Bogotá, Colombia</span>
+            </div>
+          </article>
+
+          <article class="panel contact-card is-visible" data-reveal="">
+            <h3>Best-fit roles</h3>
+            <ul class="highlight-list">
+              <li>IT Support Specialist or Help Desk positions.</li>
+              <li>Technical customer service and user support roles.</li>
+              <li>Operations, reporting, documentation, or digital platform support positions.</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div>Darwin Leonardo Cortes Sanchez — Professional CV website.</div>
+      <div>Designed as a clean, modern single-page profile with responsive layout and light/dark mode.</div>
+    </div>
+  </footer>
 
   <script>
-    const btnEs = document.getElementById("btn-es");
-    const btnEn = document.getElementById("btn-en");
-    const cvEs = document.getElementById("cv-es");
-    const cvEn = document.getElementById("cv-en");
+    (function () {
+      const root = document.documentElement;
+      const toggle = document.querySelector('[data-theme-toggle]');
+      let theme = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+      root.setAttribute('data-theme', theme);
 
-    function setLang(lang) {
-      const isEs = lang === "es";
-      cvEs.classList.toggle("active", isEs);
-      cvEn.classList.toggle("active", !isEs);
-      btnEs.classList.toggle("active", isEs);
-      btnEn.classList.toggle("active", !isEs);
-      document.documentElement.lang = isEs ? "es" : "en";
-      localStorage.setItem("cv-lang", lang);
-    }
+      const setToggleIcon = () => {
+        if (!toggle) return;
+        toggle.setAttribute('aria-label', theme === 'dark' ? 'Switch to light mode' : 'Switch to dark mode');
+        toggle.innerHTML = theme === 'dark'
+          ? '<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="12" cy="12" r="5"></circle><path d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"></path></svg>'
+          : '<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg>';
+      };
 
-    btnEs.addEventListener("click", () => setLang("es"));
-    btnEn.addEventListener("click", () => setLang("en"));
+      setToggleIcon();
+      toggle?.addEventListener('click', () => {
+        theme = theme === 'dark' ? 'light' : 'dark';
+        root.setAttribute('data-theme', theme);
+        setToggleIcon();
+      });
 
-    const stored = localStorage.getItem("cv-lang");
-    if (stored === "en") {
-      setLang("en");
-    } else {
-      setLang("es");
-    }
+      const observer = new IntersectionObserver((entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add('is-visible');
+            observer.unobserve(entry.target);
+          }
+        });
+      }, { threshold: 0.12 });
+
+      document.querySelectorAll('[data-reveal]').forEach((el) => observer.observe(el));
+    })();
   </script>
-</body>
-</html>
+
+
+</body></html>
